@@ -296,7 +296,6 @@ def test(port,HandlerClass = SimpleHTTPRequestHandler,ServerClass = http.server.
  
 if __name__ == '__main__':
     port = 80
-    print(sys.argv[1])
     if len(sys.argv) == 1:
         print("Usage SimpleHTTPUpload.py PORT \n Example : python SimpleHTTPUpload.py 443")
     else:
